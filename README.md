@@ -98,6 +98,21 @@ The server will start and be accessible at port 8081.
   - `interactions []string`: Slice of interactions to filter.
   - `timestamp string`: Timestamp to filter interactions with.
 
+## Screenshots
+
+1. Server Running using Docker Compose
+![Screenshot from 2024-02-22 23-07-42](https://github.com/SanjaySinghRajpoot/interactWrapper/assets/67458417/49ce3801-acda-48e3-bd09-752edaa9c074)
+
+2. `api/getUrl` endpoint 
+![Screenshot from 2024-02-22 22-37-28](https://github.com/SanjaySinghRajpoot/interactWrapper/assets/67458417/bf62704e-2a2e-40a5-a932-47c451ee5de9)
+
+3. `api/getinteractions` endpoint without Timestamp
+![Screenshot from 2024-02-22 22-37-21](https://github.com/SanjaySinghRajpoot/interactWrapper/assets/67458417/5626e811-c98c-4f7e-be75-54bef0e0478c)
+
+4. `api/getinteractions` endpoint with Timestamp
+![Screenshot from 2024-02-22 22-37-12](https://github.com/SanjaySinghRajpoot/interactWrapper/assets/67458417/009a7127-40d7-48cc-971e-f43ee3ead15a)
+
+
 ## Testing
 
 Testing is provided for both the endpoints and utility functions. You can run tests using the `go test` command.
