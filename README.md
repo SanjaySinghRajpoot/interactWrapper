@@ -1,8 +1,5 @@
-Sure, here's how you can structure your README file:
 
----
-
-# Interactsh Wrapper
+# Wrapper
 
 This project is a wrapper around [Interactsh](https://github.com/projectdiscovery/interactsh), allowing for easier integration and customization. A working client has been implemented using the cmd/interactsh-client code.
 
