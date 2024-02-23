@@ -38,11 +38,15 @@ The Interactsh Wrapper migrates the core logic and provides two additional endpo
 
 ### Running with Go
 
-To run the project using Go:
+1. To run the project using Go:
 
 ```bash
 go run main.go
 ```
+
+2. Visit the default URL so that we can track the Network requets and populate some data. 
+
+3. Hit the endpoints
 
 ### Running with Docker
 
@@ -56,6 +60,10 @@ Alternatively, you can use Docker for deployment. A multi-stage Dockerfile with 
 
 The server will start and be accessible at port 8081.
 
+
+2. Visit the default URL so that we can track the Network requets and populate some data. 
+
+3. Hit the endpoints
 
 ## Endpoints
 
